@@ -1,0 +1,94 @@
+.jp-container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 40px auto;
+  font-family: "Poppins", sans-serif;
+}
+
+.jp-title {
+  font-size: 36px;
+  color: #7c352c;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.jp-text {
+  font-size: 17px;
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.highlight {
+  color: #0a54b3;
+  font-weight: 600;
+}
+
+.jp-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.jp-link {
+  color: #0a54b3;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.jp-link:hover {
+  text-decoration: underline;
+}
+
+.jp-subtitle {
+  font-size: 22px;
+  color: #7c352c;
+  margin-bottom: 15px;
+}
+
+.highlight-box {
+  background: yellow;
+  padding: 3px 6px;
+  border-radius: 4px;
+  margin-left: 6px;
+  font-weight: 600;
+}
+
+.jp-cta-box {
+  margin-top: 40px;
+  padding: 25px;
+  background: #0057ff;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.jp-cta-text {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.jp-cta-btn {
+  background: #ffca00;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.jp-cta-btn:hover {
+  background: #ffdb3b;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .jp-cta-box {
+    flex-direction: column;
+    gap: 15px;
+  }
+}

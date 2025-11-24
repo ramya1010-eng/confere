@@ -1,0 +1,202 @@
+.about-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;        /* space between left & right */
+  padding: 40px;
+}
+
+/* LEFT SIDE */
+.left-block {
+  width: 45%;       /* FIXED - makes left close to right */
+}
+
+.main-image-card {
+  position: relative;
+  width: 80%;      /* full width */
+}
+
+.main-image-card img {
+  width: 100%;      /* image full width */
+  border-radius: 20px;
+}
+
+/* Badge on left image */
+.image-badge {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background: rgb(3, 242, 250);
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.about-text {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #444;
+}
+
+.btn-row {
+  margin-top: 25px;
+  display: flex;
+  gap: 20px;
+}
+
+.btn {
+  padding: 12px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  border: none;
+}
+
+.purple {
+  background: #7b00ff;
+  color: white;
+}
+
+.outline {
+  border: 2px solid #444;
+  background: transparent;
+}
+
+/* RIGHT SIDE */
+.right-block {
+  width: 45%;        /* FIXED - makes right close to left */
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 40px;
+}
+
+/* Speaker image card */
+.speaker-card {
+  position: relative;
+  width: 80%;       /* full width */
+}
+
+.speaker-card img {
+  width: 100%;       /* image full width */
+  border-radius: 15px;
+}
+
+.speaker-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgb(3, 242, 250);
+  padding: 6px 10px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.speaker-text {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.about-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Left and Right side aligned in one row */
+.about-content {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 40px;   /* space before timer */
+}
+
+/* TIMER CENTERED BELOW */
+.timer-section {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+.about-top-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.about-top-bar .menu-icon {
+  font-size: 28px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.about-top-bar .register-btn {
+  background: #673ab7;
+  color: #fff;
+  padding: 10px 22px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.timer-section {
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timer-heading {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #6d0383;
+  text-align: center;
+  width: 100%;
+}
+.icretm-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.left-section {
+  width: 60%;
+}
+
+.right-section {
+  width: 35%;
+  background: #f8faff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.who-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.who-list {
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+
+.who-image {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 15px;
+}

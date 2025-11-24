@@ -1,0 +1,79 @@
+.vv-wrapper {
+  padding: 90px 10%;
+  background: #f7faff;
+  min-height: 100vh;
+}
+
+.vv-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #102a54;
+}
+
+.vv-container {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.vv-left {
+  width: 65%;
+}
+
+.vv-right {
+  width: 30%;
+  background: #e9f2ff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.vv-text {
+  font-size: 17px;
+  line-height: 1.7;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.vv-subtitle {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  color: #0c3877;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.vv-right h3 {
+  margin-bottom: 10px;
+  color: #0c3877;
+}
+
+.vv-right ul {
+  padding-left: 18px;
+}
+
+.vv-right li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+.vv-readmore {
+  display: inline-block;
+  margin-top: 10px;
+  color: #0056d6;
+  text-decoration: underline;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .vv-container {
+    flex-direction: column;
+  }
+
+  .vv-left, .vv-right {
+    width: 100%;
+  }
+}

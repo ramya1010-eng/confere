@@ -1,0 +1,64 @@
+.cfp-container {
+  max-width: 1200px;
+  margin: 100px auto;
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.cfp-title {
+  text-align: center;
+  color: #0056d6;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.cfp-subtitle {
+  text-align: center;
+  margin-top: 10px;
+  color: #444;
+  font-size: 16px;
+}
+
+.cfp-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 35px;
+  background: #f9fbff;
+  padding: 30px;
+  border-radius: 12px;
+  margin-top: 30px;
+}
+
+.cfp-column ul {
+  padding-left: 18px;
+}
+
+.cfp-column li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+  color: #222;
+}
+
+.cfp-heading {
+  color: #0056d6;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.cfp-email {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 16px;
+  color: #222;
+}
+
+.cfp-email a {
+  color: #0056d6;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.cfp-email a:hover {
+  text-decoration: underline;
+}

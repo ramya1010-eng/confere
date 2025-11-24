@@ -1,0 +1,32 @@
+.countdown-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 60px;
+}
+
+.countdown-box {
+  width: 120px;
+  height: 120px;
+  background: #f8f8f8;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.count-number {
+  font-size: 38px;
+  font-weight: 800;
+  color: #111;
+}
+
+.count-label {
+  font-size: 13px;
+  color: #666;
+  margin-top: 5px;
+  letter-spacing: 1px;
+}

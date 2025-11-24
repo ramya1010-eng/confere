@@ -1,0 +1,69 @@
+/* Page Container */
+.speaker-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+/* Page Title */
+.speaker-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  color: #2c2c7c;
+  margin-bottom: 40px;
+}
+
+/* Grid Layout */
+.speaker-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+/* Each Speaker Card */
+.speaker-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.08);
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.speaker-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0px 8px 30px rgba(0,0,0,0.12);
+}
+
+/* Speaker Image – FIXED */
+.speaker-img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+
+/* Name */
+.speaker-name {
+  font-size: 18px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+/* Title */
+.speaker-title-text {
+  font-size: 14px;
+  color: #555;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+/* Affiliation */
+.speaker-affiliation {
+  font-size: 13px;
+  color: #777;
+  line-height: 1.4;
+}
