@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/confere/static/css/main.641bcd9d.css",
-    "main.js": "/confere/static/js/main.fca9a889.js",
+    "main.css": "/confere/static/css/main.ecd0f9be.css",
+    "main.js": "/confere/static/js/main.dd241cf4.js",
     "static/media/speaker1.jpg": "/confere/static/media/speaker1.b9040c1236a1cb012182.jpg",
     "static/media/speaker2.jpg": "/confere/static/media/speaker2.b0fe99fd1471d4716cd9.jpg",
     "static/media/speaker3.jpg": "/confere/static/media/speaker3.0c4e4da26c04c44d0e22.jpg",
     "static/media/confern.jpg": "/confere/static/media/confern.19b8cc67cc925510ae96.jpg",
     "index.html": "/confere/index.html",
-    "main.641bcd9d.css.map": "/confere/static/css/main.641bcd9d.css.map",
-    "main.fca9a889.js.map": "/confere/static/js/main.fca9a889.js.map"
+    "main.ecd0f9be.css.map": "/confere/static/css/main.ecd0f9be.css.map",
+    "main.dd241cf4.js.map": "/confere/static/js/main.dd241cf4.js.map"
   },
   "entrypoints": [
-    "static/css/main.641bcd9d.css",
-    "static/js/main.fca9a889.js"
+    "static/css/main.ecd0f9be.css",
+    "static/js/main.dd241cf4.js"
   ]
 }
